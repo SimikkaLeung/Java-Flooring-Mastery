@@ -26,12 +26,13 @@ public class OrderingView {
 		System.out.println("* 2. Add an Order ");
 		System.out.println("* 3. Edit an Order ");
 		System.out.println("* 4. Remove an Order ");
-		System.out.println("* 5. Quit ");
+		System.out.println("* 5. Export All Data ");
+		System.out.println("* 6. Quit ");
 		System.out.println("*");
 		System.out.println("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ");
 		
 		
-		return io.inputMenuChoice("What would you like to do? (1-5)");
+		return io.inputMenuChoice("What would you like to do? (1-6)");
 	}
 	public void displayOrders(List<Order> orderList) {
 		

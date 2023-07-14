@@ -78,13 +78,17 @@ public class OrderingController {
 						
 					}
 					break;
-				case 5:		// Quit
+				case 5:		// Export All Data: It is an optional feature so I skip it for now.
+					//myView.displayErrorMessage("This service is coming soon...");
+					myService.exportAllData();
+					break;
+				case 6:		// Quit
 					myView.displayGoodbyeMessage();
 					break;
-				default : System.out.println("Please provide a valid response (1-5).");
+				default : System.out.println("Please provide a valid response (1-6).");
 			}	// end of the switch statement
 			
-		} while (choice != 5);
+		} while (choice != 6);
 
 		
 		

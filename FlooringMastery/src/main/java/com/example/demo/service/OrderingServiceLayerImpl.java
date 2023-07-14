@@ -105,7 +105,13 @@ public class OrderingServiceLayerImpl implements OrderingServiceLayer {
 		orderDao.loadFromFile();
 		return orderMap;
 	}
-
+	
+	@Override
+	public void exportAllData() throws IOException {
+		orderDao.exportAllData();
+		
+	}
+	
 	@Override
 	public Map<LocalDate, List<Order>> loadFromFile() throws IOException {
 		

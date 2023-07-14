@@ -4,5 +4,4 @@ OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborC
 3,Albert Einstein,KY,6.00,Carpet,217.00,2.25,2.10,488.25,455.70,56.64,1000.59,06-02-2013
 4,Sim Leung,CA,25.00,Laminate,77,1.75,2.10,134.75,161.70,74.11,370.56,07-02-2023
 5,Evan Tsai,KY,6.00,Wood,40,5.15,4.75,206.00,190.00,23.76,419.76,07-02-2023
-7,Mika Lee,CA,25.00,Wood,120,5.15,4.75,618.00,570.00,297.00,1485.00,07-15-2023
 6,Fiona Fung,TX,4.45,Wood,40,5.15,4.75,206.00,190.00,17.62,413.62,02-02-2024
