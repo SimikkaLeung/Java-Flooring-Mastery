@@ -20,6 +20,7 @@ public interface OrderingServiceLayer {
 	public Map<LocalDate, List<Order>> addOrder(Order order) throws IOException; 
 	public Map<LocalDate, List<Order>> deleteOrder(Order order) throws IOException;
 	public Map<LocalDate, List<Order>> editOrder(Order oldOrder, Order newOrder) throws IOException;
+	public void exportAllData () throws IOException;
 	public void saveToFile() throws IOException;
 	public Map<LocalDate, List<Order>> loadFromFile() throws IOException;
 	
